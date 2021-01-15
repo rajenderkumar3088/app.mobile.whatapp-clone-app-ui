@@ -54,6 +54,7 @@ const List chat_data = [
   }
 ];
 
+// ignore: non_constant_identifier_names
 List setting_section_one = [
   {"icon": Icons.star, "text": "Starred Messages", "color": Colors.yellow[700]},
   {
@@ -63,6 +64,7 @@ List setting_section_one = [
   },
 ];
 
+// ignore: non_constant_identifier_names
 List setting_section_two = [
   {"icon": Icons.lock, "text": "Account", "color": Colors.blue[700]},
   {"icon": Icons.chat_bubble, "text": "Chats", "color": Colors.green},
@@ -78,6 +80,7 @@ List setting_section_two = [
   },
 ];
 
+// ignore: non_constant_identifier_names
 List setting_section_three = [
   {"icon": Icons.info_outline, "text": "Help", "color": Colors.blue[600]},
   {

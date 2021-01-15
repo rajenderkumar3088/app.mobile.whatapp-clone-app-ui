@@ -189,7 +189,7 @@ class CustomBubbleChat extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
             Flexible(
-              child: Padding(
+              Widget: Padding(
                 padding: const EdgeInsets.only(left: 20, right: 20, bottom: 2),
                 child: Container(
                   decoration: BoxDecoration(
@@ -225,7 +225,7 @@ class CustomBubbleChat extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
             Flexible(
-              child: Padding(
+              Widget: Padding(
                   padding:
                       const EdgeInsets.only(left: 20, right: 14, bottom: 10),
                   child: Bubble(
@@ -258,7 +258,7 @@ class CustomBubbleChat extends StatelessWidget {
         return Row(
           children: [
             Flexible(
-              child: Padding(
+              Widget: Padding(
                 padding: const EdgeInsets.only(left: 20, right: 20, bottom: 2),
                 child: Container(
                   decoration: BoxDecoration(
@@ -294,7 +294,7 @@ class CustomBubbleChat extends StatelessWidget {
         return Row(
           children: [
             Flexible(
-              child: Padding(
+              Widget: Padding(
                   padding:
                       const EdgeInsets.only(right: 20, left: 14, bottom: 10),
                   child: Bubble(

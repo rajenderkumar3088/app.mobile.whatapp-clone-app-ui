@@ -34,7 +34,7 @@ class _StatusPageState extends State<StatusPage> {
   }
 
   Widget getBody() {
-    var size = MediaQuery.of(context).size;
+    // var size = MediaQuery.of(context).size;
     return ListView(
       children: [
         Padding(
@@ -99,7 +99,7 @@ class _StatusPageState extends State<StatusPage> {
                           Positioned(
                             right: 5,
                             bottom: 0,
-                            child: Container(
+                            Widget: Container(
                               width: 20,
                               height: 20,
                               decoration: BoxDecoration(
