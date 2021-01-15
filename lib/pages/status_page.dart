@@ -99,7 +99,7 @@ class _StatusPageState extends State<StatusPage> {
                           Positioned(
                             right: 5,
                             bottom: 0,
-                            Widget: Container(
+                            child: Container(
                               width: 20,
                               height: 20,
                               decoration: BoxDecoration(

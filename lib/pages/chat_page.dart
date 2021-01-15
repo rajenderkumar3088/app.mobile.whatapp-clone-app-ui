@@ -138,7 +138,7 @@ class _ChatPageState extends State<ChatPage> {
                     width: 15,
                   ),
                   Expanded(
-                    Widget: Container(
+                    child: Container(
                       height: 85,
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -158,7 +158,7 @@ class _ChatPageState extends State<ChatPage> {
                                             fontWeight: FontWeight.w600)),
                                   ),
                                   Expanded(
-                                    Widget: Text(
+                                    child: Text(
                                       chat_data[index]['date'],
                                       style: TextStyle(
                                           fontSize: 14,
